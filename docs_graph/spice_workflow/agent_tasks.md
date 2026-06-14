@@ -21,4 +21,4 @@ When asked to add a simulation:
 2. Preserve existing `cir/` modules.
 3. Create or update only the relevant `sim/` subtree.
 4. Keep `sim.py` close to the fixed function shape.
-5. Use `sim.sh` as the launch entry.
+5. Use `run.sh` as the launch entry.

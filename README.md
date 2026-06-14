@@ -18,16 +18,16 @@ Minimal text-first ngspice + Python workflow template.
 │   ├── tb.par
 │   ├── sim.py
 │   └── output/
-└── sim.sh
+└── run.sh
 ```
 
 ## Run
 
 ```bash
-./sim.sh
+./run.sh
 ```
 
-`sim.sh` uses:
+`run.sh` uses:
 
 ```bash
 micromamba run -n sci python ./sim/sim.py

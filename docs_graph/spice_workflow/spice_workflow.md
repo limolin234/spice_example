@@ -15,12 +15,12 @@ Stable examples:
 - `example/`: minimal template.
 - `three_phase_rlc_load/`: worked three-phase unbalanced RLC load example.
 
-Use `sim.sh` from an example root:
+Use `run.sh` from an example root:
 
 ```bash
-./sim.sh
-./sim.sh ac
-./sim.sh tran
+./run.sh
+./run.sh ac
+./run.sh tran
 ```
 
 No argument runs `./sim/sim.py`. With an argument, it runs `./sim/$1/sim.py`.
