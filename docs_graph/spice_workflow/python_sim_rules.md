@@ -20,6 +20,13 @@ Fixed responsibilities:
 
 `tb.cir` contains the excitation source statements directly. Python changes their values by writing `tb.par`, not by generating a separate source file.
 
+Matplotlib rules:
+
+- Default to an interactive Matplotlib window with `plt.show()`.
+- Also save useful figures into `output/` when practical.
+- Do not force headless plotting unless explicitly asked.
+- For 3D plots, keep the interactive window by default so the user can rotate the view and take screenshots manually.
+
 Python may perform parameter sweeps. ngspice should still perform internal analysis sweeps such as `.tran`, `.ac`, or `.dc`.
 
 Do not use bash loops for experiment logic.
