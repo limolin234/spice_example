@@ -1,0 +1,5 @@
+.include ./cir/main.par
+
+.subckt main in out
+R0 in out {RV}
+.ends main

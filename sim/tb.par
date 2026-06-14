@@ -1,0 +1,5 @@
+.param TSTEP=100u
+.param TSTOP=10m
+.param VAMP=1
+.param FREQ=50
+.param PHASE=0

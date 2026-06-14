@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+sim/output/*
+!sim/output/.gitkeep
+
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+*.log

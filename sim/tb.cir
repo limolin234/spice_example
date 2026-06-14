@@ -1,0 +1,15 @@
+.include ./sim/tb.par
+.include ./cir/main.cir
+
+V0 in 0 SIN(0 {VAMP} {FREQ} 0 0 {PHASE})
+
+Xmain in 0 main
+
+.tran {TSTEP} {TSTOP}
+
+.control
+run
+wrdata ./sim/output/val.csv time v(in)
+.endc
+
+.end
